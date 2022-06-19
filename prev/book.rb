@@ -1,12 +1,12 @@
-# puts "Enter your password:"
-# password = gets.chomp
-#
-# def show_pw hide
-#   stars = hide.size
-#   puts "*" * stars
-# end
-#
-# show_pw (password)
+puts "Enter your password:"
+password = gets.chomp
+
+def show_pw hide
+  stars = hide.size
+  puts "*" * stars
+end
+
+show_pw (password)
 
 # score = 0
 #
